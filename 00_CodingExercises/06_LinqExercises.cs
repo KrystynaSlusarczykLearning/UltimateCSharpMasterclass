@@ -1,9 +1,9 @@
 ﻿public class LinqExercises
 {
     //Any & All
-   public static bool IsAnyWordUppercase(List<string> words) =>
-        words.Any(word => word.All(
-            character => char.IsUpper(character)));
+    public static bool IsAnyWordWhitespace(List<string> words) =>
+         words.Any(word => word.All(
+             character => char.IsWhiteSpace(character)));
 
     //Count & Contains
     public static int CountListsContainingZeroLongerThan(
