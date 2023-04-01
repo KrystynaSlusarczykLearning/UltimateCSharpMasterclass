@@ -4,7 +4,7 @@ Hello!
 
 My name is Krystyna and welcome to my GitHub.
 
-This repository is part of my  "Ultimate C# Masterclass" course, which you can find under this link: TO_BE_ADDED
+This repository is part of my  **"Ultimate C# Masterclass"** course, which you can find under this link: https://www.udemy.com/course/ultimate-csharp-masterclass/?referralCode=43763BBDA97D7D0B571A
 
 ## FAQ:
 
