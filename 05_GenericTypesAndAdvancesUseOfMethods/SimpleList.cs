@@ -23,7 +23,7 @@ class SimpleList<T>
 
     public void RemoveAt(int index)
     {
-        if (index < 0 || index > _size)
+        if (index < 0 || index >= _size)
         {
             throw new IndexOutOfRangeException(
                 $"Index {index} is outside the bounds of the list.");
@@ -41,7 +41,7 @@ class SimpleList<T>
 
     public T GetAtIndex(int index)
     {
-        if (index < 0 || index > _size)
+        if (index < 0 || index >= _size)
         {
             throw new IndexOutOfRangeException(
                 $"Index {index} is outside the bounds of the list.");
