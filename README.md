@@ -4,14 +4,14 @@ Hello!
 
 My name is Krystyna and welcome to my GitHub.
 
-This repository is part of my  "Ultimate C# Masterclass" course, which you can find under this link: TO_BE_ADDED
+This repository is part of my  **"Ultimate C# Masterclass"** course, which you can find under this link: https://www.udemy.com/course/ultimate-csharp-masterclass/?referralCode=43763BBDA97D7D0B571A
 
 ## FAQ:
 
 ### Q1: How do I download the files?
 A: If you're not familiar with Git and just want to download the entire solution, click the green button saying "Code", and then select the "Download ZIP". If you know some Git, just clone this repository to your machine.
 
-### Q1: How do I open those files?
+### Q2: How do I open those files?
 A: Simply open the UltimateCSharpMasterclass.sln file with Visual Studio. 
 
 ### Q3: What are the projects in this solution?
