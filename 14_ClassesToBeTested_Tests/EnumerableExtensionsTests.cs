@@ -1,5 +1,7 @@
 ﻿using NUnit.Framework;
 
+namespace _14_ClassesToBeTested_Tests;
+
 [TestFixture]
 public class EnumerableExtensionsTests
 {
@@ -69,28 +71,5 @@ public class EnumerableExtensionsTests
 
         var exception = Assert.Throws<ArgumentNullException>(
             () => input!.SumOfEvenNumbers());
-    }
-
-    [Test]
-    public void SomeTest()
-    {
-        bool someVariable = true;
-        Assert.True(someVariable);
-        //Assert.False(someVariable); //will fail
-
-        Assert.AreEqual(true, someVariable);
-
-        //Assert.Null(someVariable); //will fail
-        Assert.NotNull(someVariable);
-
-        var collection1 = new List<int> { 1, 2, 3 };
-        var collection2 = new List<int> { 3, 2, 1 };
-
-        CollectionAssert.AreEquivalent(collection2, collection1);
-
-        //both will fail, as the order is different
-        //if it was the same, both would pass
-        //Assert.AreEqual(collection2, collection1);
-        //CollectionAssert.AreEqual(collection2, collection1);
     }
 }
