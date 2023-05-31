@@ -1,6 +1,5 @@
-﻿using DiceRollGame.Game;
-using DiceRollGame.UserCommunication;
-using Game;
+﻿using Game;
+using UserCommunication;
 
 var random = new Random();
 var dice = new Dice(random);
