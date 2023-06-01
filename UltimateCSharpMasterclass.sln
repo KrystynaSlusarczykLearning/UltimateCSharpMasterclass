@@ -81,7 +81,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_FibonacciGeneratorTests"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_DiceRollGameToBeTested", "14_DiceRollGameToBeTested\14_DiceRollGameToBeTested.csproj", "{B1F6A13A-4826-4EFF-B7ED-F59A0C29D24E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiceRollGameTests", "14_DiceRollGameTests\DiceRollGameTests.csproj", "{DA2D9FE9-D341-46F5-9368-D176537338BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_DiceRollGameTests", "14_DiceRollGameTests\14_DiceRollGameTests.csproj", "{DA2D9FE9-D341-46F5-9368-D176537338BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
