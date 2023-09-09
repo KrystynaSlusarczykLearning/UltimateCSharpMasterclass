@@ -83,6 +83,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_DiceRollGameToBeTested",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_DiceRollGameTests", "14_DiceRollGameTests\14_DiceRollGameTests.csproj", "{DA2D9FE9-D341-46F5-9368-D176537338BA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_CleanCode", "15_CleanCode\15_CleanCode.csproj", "{CCC2EB17-2B37-4250-B493-625E6A515A7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_PasswordGenerator", "15_PasswordGenerator\15_PasswordGenerator.csproj", "{C3AD3E74-4632-40CD-A5B6-C539DAE6F0AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_PasswordGeneratorTests", "15_PasswordGeneratorTests\15_PasswordGeneratorTests.csproj", "{D80B1AFC-E123-4580-92DE-AA5F0A9F2038}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +255,18 @@ Global
 		{DA2D9FE9-D341-46F5-9368-D176537338BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA2D9FE9-D341-46F5-9368-D176537338BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA2D9FE9-D341-46F5-9368-D176537338BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC2EB17-2B37-4250-B493-625E6A515A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC2EB17-2B37-4250-B493-625E6A515A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC2EB17-2B37-4250-B493-625E6A515A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC2EB17-2B37-4250-B493-625E6A515A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3AD3E74-4632-40CD-A5B6-C539DAE6F0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3AD3E74-4632-40CD-A5B6-C539DAE6F0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3AD3E74-4632-40CD-A5B6-C539DAE6F0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3AD3E74-4632-40CD-A5B6-C539DAE6F0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80B1AFC-E123-4580-92DE-AA5F0A9F2038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80B1AFC-E123-4580-92DE-AA5F0A9F2038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80B1AFC-E123-4580-92DE-AA5F0A9F2038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80B1AFC-E123-4580-92DE-AA5F0A9F2038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

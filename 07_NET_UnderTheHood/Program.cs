@@ -148,7 +148,7 @@ public class SpecificLineFromTextFileReader : IDisposable
         _streamReader.DiscardBufferedData();
         _streamReader.BaseStream.Seek(0, SeekOrigin.Begin);
 
-        for(var i = 0; i < lineNumber - 1; ++i)
+        for (var i = 0; i < lineNumber - 1; ++i)
         {
             _streamReader.ReadLine();
         }
