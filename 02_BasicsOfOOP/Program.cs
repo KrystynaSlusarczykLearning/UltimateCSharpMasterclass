@@ -16,7 +16,7 @@ Console.WriteLine(
 Console.WriteLine("Width is " + rectangle1.Width);
 Console.WriteLine("Height is " + rectangle1.GetHeight());
 Console.WriteLine("Area is " + rectangle1.CalculateArea());
-Console.WriteLine("Circumference is " + rectangle1.CalculateCircumference());
+Console.WriteLine("Circumference is " + rectangle1.CalculatePerimeter());
 
 Console.WriteLine($"1 + 2 is {Calculator.Add(1, 2)}");
 Console.WriteLine($"1 - 2 is {Calculator.Subtract(1, 2)}");
@@ -94,7 +94,7 @@ class Rectangle
 
     //expression-bodied methods
     //could not be made static as they use the state of an instance (width and height)
-    public int CalculateCircumference() => 2 * Width + 2 * _height;
+    public int CalculatePerimeter() => 2 * Width + 2 * _height;
 
     public int CalculateArea() => Width * _height;
 
