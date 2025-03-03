@@ -60,7 +60,7 @@ foreach (var employee in validEmployees)
 
 numbers.Sort();
 
-var words = new List<string> { "ddd", "aaa", " ccc", "bbb" };
+var words = new List<string> { "ddd", "aaa", "ccc", "bbb" };
 words.Sort();
 people.Sort();
 
