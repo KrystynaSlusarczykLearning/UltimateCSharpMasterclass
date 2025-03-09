@@ -1,7 +1,7 @@
 ﻿//Attributes - MustBeLargerThanAttribute
 
 [AttributeUsage(AttributeTargets.Property)]
-class MustBeLargerThanAttribute : Attribute
+public class MustBeLargerThanAttribute : Attribute
 {
     public int Min { get; }
 
