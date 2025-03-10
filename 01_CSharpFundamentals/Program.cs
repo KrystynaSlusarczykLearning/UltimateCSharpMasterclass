@@ -219,6 +219,35 @@ char ConvertPointsToGrade(int points)
     }
 }
 
+//###################
+//Switch expression with contant pattern
+//###################
+char ConvertPointsToGrade_ConstantPattern(int points)
+{
+    return points switch
+    {
+        10 or 9 => 'A',
+        8 or 7 or 6 => 'B',
+        5 or 4 or 3 => 'C',
+        2 or 1 => 'D',
+        0 => 'E',
+        _ => '!',
+    };
+}
+
+//###################
+//Switch expression with relational pattern
+//###################
+char ConvertPointsToGrade_RelationalPattern(int points)
+{
+    return points switch
+    {
+        >= 90 => 'A',
+        >= 80 => 'B',
+        >= 50 => 'C',
+        _ => 'D' //anything below 50 gets a D
+    };
+}
 
 
 //###################
