@@ -1,0 +1,59 @@
+{
+    "name": "C#",
+    "dockerFile": "../Dockerfile",
+    // Use 'settings' to set *default* container specific settings.json values on container create.
+    // You can edit these settings after create using File > Preferences > Settings > Remote.
+    // "settings": {
+    // 	"terminal.integrated.shell.linux": "/bin/bash",
+    // 	"vetur.completion.autoImport": false
+    // },
+
+    // Uncomment the next line if you want to publish any ports.
+    // "appPort": ["7030:5173"],
+
+    // Uncomment the next line to run commands after the container is created.
+    // "postCreateCommand": "yarn install",
+
+    // Uncomment the next line to use a non-root user. On Linux, this will prevent
+    // new files getting created as root, but you may need to update the USER_UID
+    // and USER_GID in .devcontainer/Dockerfile to match your user if not 1000.
+    // "runArgs": ["-u", "node"],
+    // "workspaceMount": "source=${localWorkspaceFolder},target=/home/node/mw,type=bind",
+    "mounts": ["source=${localWorkspaceFolder},target=/home/node/mw,type=bind"],
+
+    // "source=${localWorkspaceFolder}/packages,target=/home/node/mw/packages,type=bind",
+    // "source=${localWorkspaceFolder}/projects,target=/home/node/mw/projects,type=bind"
+    // "source=${localWorkspaceFolder}/.prettierrc/,target=/home/node/mw/.prettierrc,type=bind"
+    // "source=${locaEnv:HOME}/Documents/repos/mrpo/packages,target=/home/node/mw,type=bind"
+    "workspaceFolder": "/home/node/mw",
+
+    // Add the IDs of extensions you want installed when the container is created in the array below.
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "donjayamanne.githistory",
+                "eamodio.gitlens",
+                "dbaeumer.vscode-eslint",
+                // "esbenp.prettier-vscode",
+                // "biomejs.biome",
+                "github.copilot",
+                "github.vscode-pull-request-github",
+
+                "vscodevim.vim",
+                "mhutchie.git-graph",
+                "oderwat.indent-rainbow",
+                "ms-dotnettools.csdevkit",
+
+                // themes
+                "teabyii.ayu",
+                "sdras.inbedby7pm",
+                "mvllow.rose-pine",
+                "wicked-labs.wvsc-serendipity",
+                "sdras.night-owl",
+                "fisheva.eva-theme",
+                "iKenshu.rose-noctis",
+                "AlexDauenhauer.catppuccin-noctis"
+            ]
+        }
+    }
+}
