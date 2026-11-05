@@ -11,7 +11,7 @@
         List<List<int>> listsOfNumbers) =>
             listsOfNumbers.Count(
                 list => list.Contains(0) &&
-                       !list.Any(number => number < 0));
+                        list.Count() > length);
 
 
     //OrderBy & First
